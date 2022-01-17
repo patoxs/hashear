@@ -51,11 +51,6 @@ function crypt(ed, file, destino) {
 	});	 
 }
 
-// encriptar archivo
-// node index.js -e ~/path/script-origen.yaml --destino ~/path/nuevo-nombre
-// desencriptar archivo
-// node index.js -d ~/path/script-encriptado.yaml --destino ~/path/nuevo-nombre
-
 arreglo = process.argv.slice(2);
 // console.log(arreglo);
 if ( arreglo[0] == '-e' || arreglo[0] == '-d' ) {
