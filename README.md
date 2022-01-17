@@ -1,6 +1,7 @@
 # Encriptar y Desencriptar
 
-## Comenzando 🚀
+## Instalación 🚀
+Instalar node y npm
 
 Encriptar archivo
 ```
