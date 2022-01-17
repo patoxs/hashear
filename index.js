@@ -52,7 +52,7 @@ function crypt(ed, file, destino) {
 }
 
 
-// var cadena = "Cristobal y Renato";
+// var cadena = "cadena alfanumerica";
 
 // var hw = encriptar( cadena )
 // console.log (hw)
