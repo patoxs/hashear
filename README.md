@@ -1,8 +1,9 @@
 # Encriptar y Desencriptar
 
-## Instalación 🚀
+## Instalación
 Instalar node y npm
 
+## Uso 🚀
 Encriptar archivo
 ```
 node index.js -e ~/path/file-origen --destino ~/path/file-encriptado
