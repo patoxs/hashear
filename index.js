@@ -7,7 +7,7 @@ const algoritmo   = "aes-256-cbc";
 //const clave       = "SoyUnGonzález";
 //const clave       = "Año2021YAntesEraElAño2020";
 //const clave       = "cccbeb0d472b2674a582bffbb5e4125dca83039d988c6e3c3830b7fe417";
-const clave       = "SomosDeLaAraucanía";
+const clave       = "A71shjYRDld34hj%s57oEWFGIODEG1lL";
 const initVector  = crypto.randomBytes(16);
 const Securitykey = crypto.randomBytes(32);
 
@@ -51,18 +51,10 @@ function crypt(ed, file, destino) {
 	});	 
 }
 
-
-// var cadena = "cadena alfanumerica";
-
-// var hw = encriptar( cadena )
-// console.log (hw)
-// console.log (descifrar (hw) )
-
-
-// var data = encrypt("/values.yaml");
-// var data = decrypt("/value_encrypted.txt");
-
-// node index.js -e ~/path/values.yaml --destino ~/Descargas/staging.yaml
+// encriptar archivo
+// node index.js -e ~/path/script-origen.yaml --destino ~/path/nuevo-nombre
+// desencriptar archivo
+// node index.js -d ~/path/script-encriptado.yaml --destino ~/path/nuevo-nombre
 
 arreglo = process.argv.slice(2);
 // console.log(arreglo);
